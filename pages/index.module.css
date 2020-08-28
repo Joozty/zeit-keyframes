@@ -1,0 +1,16 @@
+@keyframes slide-in-up {
+  from {
+    transform: translateY(200%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+.container {
+  animation: 3s slide-in-up;
+  width: 100px;
+  height: 100px;
+  background: black;
+}
